@@ -1,0 +1,18 @@
+/* Error */
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error__text {
+  display: inherit;
+  text-align: center;
+}
+
+.error__img {
+  display: inherit;
+  width: 20rem;
+  height: 20rem;
+}

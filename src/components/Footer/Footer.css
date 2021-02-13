@@ -1,0 +1,35 @@
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 1rem;
+  border-top: 0.1rem solid var(--font-color);
+}
+
+.footer__text {
+  display: inherit;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.footer__social-media {
+  display: inherit;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.footer__social-media * {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.footer__social-media *:hover {
+  opacity: 0.8;
+}
+
+.footer__text:hover {
+  opacity: 0.8;
+}

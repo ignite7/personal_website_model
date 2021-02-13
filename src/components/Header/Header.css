@@ -1,0 +1,16 @@
+/* Header */
+.header {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.header__text {
+  display: inherit;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.header__text:hover {
+  opacity: 0.8;
+}

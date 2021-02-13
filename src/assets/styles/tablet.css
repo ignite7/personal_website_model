@@ -1,0 +1,58 @@
+/* Tablet */
+@media (min-width: 600px) {
+  /* Base */
+  body {
+    width: 600px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.328rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+
+  /* Header */
+  .header {
+    margin-top: 4.5rem;
+  }
+
+  /* Button */
+  .button__text p {
+    font-size: 1.5rem;
+  }
+
+  .button__arrow {
+    font-size: 3.4rem;
+  }
+
+  /* Form */
+  .form__name,
+  .form__email,
+  .form__subject,
+  .form__message {
+    padding: 0.8rem;
+  }
+  .form *::placeholder {
+    font-size: 1.6rem;
+  }
+
+  /* Repo */
+  .repo__title {
+    font-size: 1.65rem;
+  }
+
+  /* Footer */
+  .footer__text h3 {
+    font-size: 1.328rem;
+  }
+
+  .footer__social-media * {
+    font-size: 2.4rem;
+  }
+}

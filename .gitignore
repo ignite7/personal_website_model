@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# Dist
+dist
+modules-manifest.json
+
+# Vim
+*.swp

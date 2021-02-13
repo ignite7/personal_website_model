@@ -1,0 +1,10 @@
+/* Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  display: inherit;
+  margin-bottom: 1rem;
+}

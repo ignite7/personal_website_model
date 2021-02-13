@@ -1,0 +1,66 @@
+/* Base - Mobile */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --font-color: #003153;
+  --font-color-warning: #d62828;
+  --hover: #72ddf7;
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Barlow-Regular.ttf");
+}
+
+body {
+  margin: 0 auto;
+  width: 300px;
+  font-family: "Barlow", sans-serif;
+  color: var(--font-color);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0beef9;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(121, 203, 202, 1) 11.2%,
+    rgba(119, 161, 211, 1) 91.1%
+  );
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--font-color);
+  -webkit-tap-highlight-color: transparent;
+}

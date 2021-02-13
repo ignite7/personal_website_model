@@ -1,0 +1,15 @@
+/* About */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.card__title {
+  display: inherit;
+  margin-bottom: 1rem;
+}
+
+.card__title:hover {
+  text-decoration: underline;
+}

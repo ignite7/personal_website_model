@@ -1,0 +1,59 @@
+/* Button */
+.button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  width: 100%;
+  min-height: 2.5rem;
+  background-color: transparent;
+  box-shadow: inset -0.2rem -0.2rem rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid var(--font-color);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+
+.button__text {
+  display: inherit;
+  min-height: 3.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__text p {
+  color: var(--font-color);
+  font-size: 1.4rem;
+}
+
+.button__icon {
+  display: inherit;
+}
+
+.button__icon.active {
+  display: inherit;
+  animation: rotate-icon 1s;
+  will-change: transform;
+}
+
+.button__arrow {
+  font-size: 3rem;
+  color: var(--font-color);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.button:hover {
+  background-color: var(--hover);
+}
+
+@keyframes rotate-icon {
+  to {
+    transform: rotate(360deg);
+  }
+}
